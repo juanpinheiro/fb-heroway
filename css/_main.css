@@ -1,0 +1,24 @@
+.main {
+    position: relative;
+    display: flex;
+}
+
+.main > .feed {
+    width: calc(100% - 350px);
+    min-height: calc(100vh - 50px);
+    background-color: #F5F6FB;
+}
+
+.main > .feed > .container {
+    width: 72%;
+    margin: 50px auto;
+}
+
+
+.main > .profile {
+    width: 350px;
+    position: fixed;
+    right: 0;
+    min-height: calc(100vh - 50px);
+    padding: 50px;
+}

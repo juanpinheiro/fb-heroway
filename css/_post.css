@@ -1,0 +1,58 @@
+.post {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.post > .post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post > .post-header .post-header-image-board {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post > .post-header .post-header-image-board img {
+    width: 58px;
+    height: auto;
+}
+
+.post > .post-header .post-header-pofile-name {
+    margin-left: 10px;
+}
+
+.post > .post-header .post-header-pofile-name .profile-name {
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.post > .post-header .post-header-pofile-name .post-date {
+    font-size: 0.75rem;
+}
+
+.post > .post-content {
+    margin: 20px 0;
+}
+
+.post > .post-image .post-image-board {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    overflow: hidden;
+}
+.post > .post-image img {
+  width: 100%;
+  min-width: 400px;
+
+}
