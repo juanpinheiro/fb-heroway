@@ -12,3 +12,10 @@ body {
     font-family: 'Varela Round';
     color: #516d77;
 }
+
+@media (max-width: 575.98px) {
+    html,
+    body {
+        font-size: 18px;
+    }
+}
