@@ -1,6 +1,7 @@
 .main {
     position: relative;
     display: flex;
+    margin-top: 50px;
 }
 
 .main > .feed {
@@ -17,8 +18,9 @@
 
 .main > .profile {
     width: 350px;
-    position: fixed;
     right: 0;
     min-height: calc(100vh - 50px);
     padding: 50px;
+    position: fixed;
+    z-index: 5;
 }
